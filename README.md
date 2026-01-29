@@ -13,7 +13,8 @@ This project is a software code that will simplify your life with just module an
 > et sera disponible une fois stabilisé. Merci de votre patience.
 
 ##Fonctionnalités d’ExilBatch
-ExilBatch est un logiciel léger et portable qui vous donnera accès à de nombreuses fonctionnalités, telles que :
+ExilBatch (ECB) est un langage basé sur Batch, Powershell, étendu avec un runtime modulaire, un système d’extensions sécurisé et un éditeur personnalisable.
+Il est léger & portable il vous donnera accès à de nombreuses fonctionnalités, telles que :
 • 	Éditeur de code intégré
 • 	Terminal ECB
 • 	Compilateur .bat/.ps1 en .exe
