@@ -1,4 +1,4 @@
-![](/screenshot/screenshot.png)
+![Logo](/screenshot/32x32.png)
 # ExilBatch
 This project is a software code that will simplify your life with just module and function calls... this application is notably lightweight and portable.
 
@@ -27,3 +27,6 @@ Remarques
 • 	Le but de ce projet est de simplifier le langage informatique en permettant d’écrire du code comme ci‑dessous :
 
 -START <LIB><$fonction.bat> <ID> <Value> ...
+
+# Screenshots
+![](/screenshot/screenshot.png)
