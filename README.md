@@ -26,7 +26,7 @@ Remarques
 • 	ExilBatch possède des modules de langue intégrés : Espagnol, Français, Anglais, Allemand, Russe.
 • 	Le but de ce projet est de simplifier le langage informatique en permettant d’écrire du code comme ci‑dessous :
 
--START <LIB><$fonction.bat> <ID> <Value> ...
+-use.bat LIB=<LIB ex: POWERSHELL/BAT/VBS> FUNC=<function ex:$form.Window.size> ARG=<arg ex:$window 500 350> optionnel : (OUT=<output.ps1> MOV=C:\)
 
 # Screenshots
 ![](/screenshot/screenshot.png)
