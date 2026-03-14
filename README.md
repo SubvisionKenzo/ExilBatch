@@ -4,7 +4,7 @@ This project is a software code that will simplify your life with just module an
 
 <br>
 
-* [Licence](LICENCE.md)
+* [Licence](LICENCE)
 
 <br>
 
