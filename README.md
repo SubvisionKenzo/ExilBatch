@@ -9,8 +9,8 @@ This project is a software code that will simplify your life with just module an
 <br>
 
 > [!NOTE]
-> Remarque : ExilBatch est un projet encore en cours de développement
-> et sera disponible une fois stabilisé. Merci de votre patience.
+> Remarque : ExilBatch est toujour un projet en cours de développement
+> Mais les versions preview sont deja disponnible ! Pour la télécharger rendez vous sur : https://subvisionkenzo.github.io/ExilbatchWeb/
 
 ##Fonctionnalités d’ExilBatch
 ExilBatch (ECB) est un langage basé sur Batch, Powershell, étendu avec un runtime modulaire, un système d’extensions sécurisé et un éditeur personnalisable.
