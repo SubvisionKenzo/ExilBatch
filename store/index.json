@@ -1,0 +1,28 @@
+{
+  "store": {
+    "App1": {
+      "Name": "Coming soon/ a venire",
+      "Desc": "",
+      "Button": {
+        "Title": "Install",
+        "Action": ""
+      }
+    },
+    "App2": {
+      "Name": "Coming soon/ a venire",
+      "Desc": "",
+      "Button": {
+        "Title": "Install",
+        "Action": ""
+      }
+    },
+    "App3": {
+      "Name": "Coming soon/ a venire",
+      "Desc": "",
+      "Button": {
+        "Title": "Install",
+        "Action": ""
+      }
+    }
+  }
+}
