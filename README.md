@@ -8,6 +8,10 @@ This project is a software code that will simplify your life with just module an
 
 <br>
 
+
+> [!WARNING]
+> L'editeur de code a était corrrigé et refait !
+
 > [!NOTE]
 > Remarque : ExilBatch est toujour un projet en cours de développement
 > Mais les versions béta sont deja disponnible ! Pour la télécharger rendez vous sur : https://subvisionkenzo.github.io/ExilbatchWeb/
@@ -22,7 +26,7 @@ Il est léger & portable il vous donnera accès à de nombreuses fonctionnalité
 • 	Interpréteur .ecb
 • 	Éditeur d’images
 • 	Panneau de paramètres
-Remarques
+# Remarques
 • 	ExilBatch possède des modules de langue intégrés : Espagnol, Français, Anglais, Allemand, Russe.
 • 	Le but de ce projet est de simplifier le langage informatique en permettant d’écrire du code comme ci‑dessous :
 
