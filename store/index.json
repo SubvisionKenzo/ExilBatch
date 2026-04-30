@@ -1,0 +1,28 @@
+{
+  "store": {
+    "App1": {
+      "Name": "VirtualBox",
+      "Desc": "By/De Oracle Corporation(virtualisation)",
+      "Button": {
+        "Title": "Install",
+        "Action": "https://download946.mediafire.com/il25d5hkk1vgBoBLcO3mf9DPuARYrwABvkFn9pgJdRSEv5d_NItqGPXvacDUSu0XUPmnqA5UNKWXFLCdCzmqdR9Rix1J0PdQ5cQ3ZRt9d8g3pRURZLPzwogMeJZLzt2-swLiDkXDSXRfWstVGzazvp0Crm9PGT7YYegQtooIFXo/e5snxe6zj4a7kfc/VirtualBox-7.2.8-173730-Win.exe"
+      }
+    },
+    "App2": {
+      "Name": "Coming soon/ a venire",
+      "Desc": "",
+      "Button": {
+        "Title": "Install",
+        "Action": ""
+      }
+    },
+    "App3": {
+      "Name": "Coming soon/ a venire",
+      "Desc": "",
+      "Button": {
+        "Title": "Install",
+        "Action": ""
+      }
+    }
+  }
+}
