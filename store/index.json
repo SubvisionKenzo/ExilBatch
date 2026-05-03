@@ -1,6 +1,6 @@
 {
   "store": {
-    "App1": {
+    "VirtualBox": {
       "Name": "VirtualBox",
       "Desc": "By/De Oracle Corporation(virtualisation)",
       "Button": {
@@ -9,6 +9,14 @@
       }
     },
     "App2": {
+      "Name": "Writer(bêta)",
+      "Desc": "By/De SubvisionKenzo, Suit d'outils portable Writer/Draw/Calc",
+      "Button": {
+        "Title": "Install",
+        "Action": ""
+      }
+    },
+    "App3": {
       "Name": "Coming soon/ a venire",
       "Desc": "",
       "Button": {
@@ -16,7 +24,7 @@
         "Action": ""
       }
     },
-    "App3": {
+    "App4": {
       "Name": "Coming soon/ a venire",
       "Desc": "",
       "Button": {
