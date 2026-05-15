@@ -9,11 +9,11 @@
       }
     },
     "App2": {
-      "Name": "Writer(bêta)",
-      "Desc": "By/De SubvisionKenzo, Suit d'outils portable Writer/Draw/Calc",
+      "Name": "Writer(beta)",
+      "Desc": "By/De SubvisionKenzo, Writer/Draw/Calc",
       "Button": {
         "Title": "Install",
-        "Action": ""
+        "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=Writer.zip"
       }
     },
     "App3": {
