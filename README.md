@@ -63,77 +63,77 @@ Le tout est présenté dans une interface claire, sans ligne de commande visible
 ----------------------------------------------------------
 
 
-Syntaxe
-use.bat LIB="" FUNC="" ARG="" OUT="" MOV=""
-Fonctionnement
+-Syntaxe
+-use.bat LIB="" FUNC="" ARG="" OUT="" MOV=""
+-Fonctionnement
 
-use.bat est un fichier qui se charge d’interpréter 5 commandes :
+-use.bat est un fichier qui se charge d’interpréter 5 commandes :
 
-LIB=""
-FUNC=""
-ARG=""
-OUT=""
-MOV=""
-Description des arguments
+-LIB=""
+-FUNC=""
+-ARG=""
+-OUT=""
+-MOV=""
+-Description des arguments
 
-LIB=""
-L’argument LIB est utilisé pour préciser le langage de programmation ou la bibliothèque à utiliser
-(exemples : Java, Python, PowerShell, etc.).
+-LIB=""
+-L’argument LIB est utilisé pour préciser le langage de programmation ou la bibliothèque à utiliser
+-(exemples : Java, Python, PowerShell, etc.).
 
-FUNC=""
-L’argument FUNC sert à préciser la fonction (la commande) à exécuter dans ExilBatch.
-Les commandes commencent toujours par $form. (la fonction).
+-FUNC=""
+-L’argument FUNC sert à préciser la fonction (la commande) à exécuter dans ExilBatch.
+-Les commandes commencent toujours par $form. (la fonction).
 
-Pourquoi $form. au début ?
-Cela permet d’indiquer clairement que toutes les fonctions appartiennent au même format, et facilite leur repérage dans l’éditeur de code (moderne ou legacy) via l’outil ToolCode.
+-Pourquoi $form. au début ?
+-Cela permet d’indiquer clairement que toutes les fonctions appartiennent au même format, et facilite leur repérage dans l’éditeur de code (moderne ou legacy) via l’outil ToolCode.
 
-ARG=""
-L’argument ARG sert à préciser les éléments qui composent le script.
+-ARG=""
+-L’argument ARG sert à préciser les éléments qui composent le script.
 
-Exemple :
+-Exemple :
 
-use.bat LIB="POWERSHELL" FUNC="$form.File.Copy" ARG="C:\fichier.txt C:\dossier"
+-use.bat LIB="POWERSHELL" FUNC="$form.File.Copy" ARG="C:\fichier.txt C:\dossier"
 
-L’interpréteur use.bat va :
+-L’interpréteur use.bat va :
 
-Vérifier dans son dictionnaire si la commande existe
-Trouver à quoi elle correspond
+-Vérifier dans son dictionnaire si la commande existe
+-Trouver à quoi elle correspond
 
-Par exemple :
+-Par exemple :
 
-$form.File.Copy = Copy-Item _1_ -Destination _2_
+-$form.File.Copy = Copy-Item _1_ -Destination _2_
 
-Avec les arguments :
+-Avec les arguments :
 
-ARG="C:\fichier.txt C:\dossier"
+-ARG="C:\fichier.txt C:\dossier"
 
-Cela donnera :
+-Cela donnera :
 
-Copy-Item C:\fichier.txt -Destination C:\dossier
+-Copy-Item C:\fichier.txt -Destination C:\dossier
 
-OUT=""
-L’argument OUT sert à préciser le fichier de sortie.
+-OUT=""
+-L’argument OUT sert à préciser le fichier de sortie.
 
-Exemple :
+-Exemple :
 
-OUT="test.ps1"
+-OUT="test.ps1"
 
-(.ps1 correspond à l’extension du fichier PowerShell)
+-(.ps1 correspond à l’extension du fichier PowerShell)
 
-MOV="" (optionnel)
-L’argument MOV est optionnel.
-Il sert à :
+-MOV="" (optionnel)
+-L’argument MOV est optionnel.
+-Il sert à :
 
-définir le dossier de sortie du fichier
-ou combiner plusieurs scripts
-Résumé
+-définir le dossier de sortie du fichier
+-ou combiner plusieurs scripts
+-Résumé
 
-use.bat agit comme un interpréteur qui :
+-use.bat agit comme un interpréteur qui :
 
-lit une commande structurée
-la traduit selon un dictionnaire interne
-génère un script dans le langage choisi
-sauvegarde le résultat dans un fichier
+-lit une commande structurée
+-la traduit selon un dictionnaire interne
+-génère un script dans le langage choisi
+-sauvegarde le résultat dans un fichier
 
 ----------------------------------------------------------
 --             A propos des syntaxe                    --
@@ -141,25 +141,25 @@ sauvegarde le résultat dans un fichier
 
 Nouvelles syntaxes : 
 
-use.bat LIB="" FUNC="" ARG="" OUT="" MOV=""
-AESTool.exe : (EncryptTool.exe/EncryptTool) (/Encrypt /Decrypt) ("file.txt") ("file.txt.lock") (key)                      # AES File Chiffrement
-run.bat : run.bat <C\...> <file_name>                                                                                     # Run file
-shell.bat : shell.bat file.ecb                                                                                            # Runtime
-notif.bat : notif.bat <Notification name> <title>                                                                         # Notification
-gui.bat : gui.bat file.json                                                                                               # Json UI
-  WebClient.exe /download <url> <destination>                                                                             # Outil HTML
-  WebClient.exe /download_page <url> <destination>
-  WebClient.exe /exists <url>
-  WebClient.exe /json <url>
-  WebClient.exe /progress <url> <destination>
-speak.exe /speak "" /lang "--.--"                                                                                         # Pour le dialog(vocal)
-                /speak ""
+-use.bat LIB="" FUNC="" ARG="" OUT="" MOV=""
+-AESTool.exe : (EncryptTool.exe/EncryptTool) (/Encrypt /Decrypt) ("file.txt") ("file.txt.lock") (key)                      # AES File Chiffrement
+-run.bat : run.bat <C\...> <file_name>                                                                                     # Run file
+-shell.bat : shell.bat file.ecb                                                                                            # Runtime
+-notif.bat : notif.bat <Notification name> <title>                                                                         # Notification
+-gui.bat : gui.bat file.json                                                                                               # Json UI
+-  WebClient.exe /download <url> <destination>                                                                             # Outil HTML
+-  WebClient.exe /download_page <url> <destination>
+-  WebClient.exe /exists <url>
+-  WebClient.exe /json <url>
+-  WebClient.exe /progress <url> <destination>
+-speak.exe /speak "" /lang "--.--"                                                                                         # Pour le dialog(vocal)
+-                /speak ""
 
 --------------------------------------------
 
 ##Fonctionnalités d’ExilBatch
-ExilBatch (ECB) est un langage basé sur Batch, Powershell, étendu avec un runtime modulaire, un système d’extensions sécurisé et un éditeur personnalisable.
-Il est léger & portable il vous donnera accès à de nombreuses fonctionnalités, telles que :
+-ExilBatch (ECB) est un langage basé sur Batch, Powershell, étendu avec un runtime modulaire, un système d’extensions sécurisé et un éditeur personnalisable.
+-Il est léger & portable il vous donnera accès à de nombreuses fonctionnalités, telles que :
 • 	Éditeur de code intégré
 • 	Terminal ECB
 • 	Compilateur .bat/.ps1 en .exe
