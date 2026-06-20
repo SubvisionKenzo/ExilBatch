@@ -19,12 +19,12 @@
             "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=Writer.zip"
           }
         },
-        "App3": {
-          "Name": "Coming soon/ a venire",
-          "Desc": "",
+        "CsharpExt": {
+          "Name": "Exxtention Csharp(Editor)",
+          "Desc": "By/De SubvisionKenzo",
           "Button": {
             "Title": "Install",
-            "Action": ""
+            "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=CsharpExtInstaller.zip"
           }
         },
         "App4": {
