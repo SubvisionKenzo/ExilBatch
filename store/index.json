@@ -27,8 +27,16 @@
             "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=CsharpExtInstaller.zip"
           }
         },
-        "App4": {
-          "Name": "Coming soon/ a venire",
+        "Java": {
+          "Name": "Extention Java(Editore)",
+          "Desc": "By/De SubvisionKenzo licence(java)",
+          "Button": {
+            "Title": "Install",
+            "Action": "https://www.mediafire.com/file/ezikyvb40fz9cjs/JavaPackageForExilBatch.zip/file"
+          }
+        }
+        "app5": {
+          "Name": "Coming soon/bientôt disponnible",
           "Desc": "",
           "Button": {
             "Title": "Install",
