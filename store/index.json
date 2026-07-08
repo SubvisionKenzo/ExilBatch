@@ -20,7 +20,7 @@
           }
         },
         "CsharpExt": {
-          "Name": "Extention Csharp(Editor)",
+          "Name": "Extention Csharp(Editor) Updated",
           "Desc": "By/De SubvisionKenzo",
           "Button": {
             "Title": "Install",
@@ -28,7 +28,7 @@
           }
         },
         "Java": {
-          "Name": "Extention Java(Editore)",
+          "Name": "Extention Java(Editor)",
           "Desc": "By/De SubvisionKenzo licence(java)",
           "Button": {
             "Title": "Install",
