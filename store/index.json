@@ -34,6 +34,14 @@
             "Title": "Install",
             "Action": "https://www.mediafire.com/file/ezikyvb40fz9cjs/JavaPackageForExilBatch.zip/file"
           }
+        },
+          "Python": {
+          "Name": "Extention Python(Editor)",
+          "Desc": "By/De SubvisionKenzo licence(Python)",
+          "Button": {
+            "Title": "Install",
+            "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=Phyton_portable_runtimeinstaller_for_ExilBatch.zip"
+          }
         }
       }
     },
