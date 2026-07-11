@@ -171,6 +171,7 @@ Nouvelles syntaxes :
 # Remarques
 • 	ExilBatch possède des modules de langue intégrés : Espagnol, Français, Anglais, Allemand, Russe.
 • 	Le but de ce projet est de simplifier le langage informatique en permettant d’écrire du code comme ci‑dessous :
+•   Il fonctionne au minimum sosu windows 7 (avec pour l'editeur legacy .NET 3.5 a installé), Windows 8/8.1, Windows 10/11 !
 
 > [!WARNING]
 > L'editeur de code a était corrrigé et refait !
