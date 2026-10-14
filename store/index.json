@@ -9,7 +9,8 @@
           "Button": {
             "Title": "Install",
             "Action": "https://download946.mediafire.com/il25d5hkk1vgBoBLcO3mf9DPuARYrwABvkFn9pgJdRSEv5d_NItqGPXvacDUSu0XUPmnqA5UNKWXFLCdCzmqdR9Rix1J0PdQ5cQ3ZRt9d8g3pRURZLPzwogMeJZLzt2-swLiDkXDSXRfWstVGzazvp0Crm9PGT7YYegQtooIFXo/e5snxe6zj4a7kfc/VirtualBox-7.2.8-173730-Win.exe"
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         },
         "Writer": {
           "Name": "Writer(beta)",
@@ -17,7 +18,8 @@
           "Button": {
             "Title": "Install",
             "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=Writer.zip"
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         },
         "CsharpExt": {
           "Name": "Extention Csharp(Editor) Updated",
@@ -25,7 +27,8 @@
           "Button": {
             "Title": "Install",
             "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=CsharpExtInstaller.zip"
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         },
         "Java": {
           "Name": "Extention Java(Editor)",
@@ -33,15 +36,17 @@
           "Button": {
             "Title": "Install",
             "Action": "https://www.mediafire.com/file/ezikyvb40fz9cjs/JavaPackageForExilBatch.zip/file"
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         },
-          "Python": {
+        "Python": {
           "Name": "Extention Python(Editor)",
           "Desc": "By/De SubvisionKenzo licence(Python)",
           "Button": {
             "Title": "Install",
             "Action": "https://subvisionkenzo.github.io/DownloaderPage/?file=Phyton_portable_runtimeinstaller_for_ExilBatch.zip"
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         }
       }
     },
@@ -55,7 +60,8 @@
           "Button": {
             "Title": "Install/Download",
             "Action": "https://drive.google.com/uc?export=download&id=1SKHDUowo38zrkI07iHPfStUEf0iLGm6t"
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         },
         "Windows 8.1": {
           "Name": "Windows 8.1 anglish x64",
@@ -63,7 +69,8 @@
           "Button": {
             "Title": "Install/Download",
             "Action": "https://drive.usercontent.google.com/download?id=1XAPQcBVTkk1nh8y-0drVk3oCGxiInp-y&export=download&authuser=0"
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         },
         "Wnnidows 10-11": {
           "Name": "Windows 10 build 21390.2025 (x64)",
@@ -71,7 +78,8 @@
           "Button": {
             "Title": "Install/Download",
             "Action": ""
-          }
+          },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         },
         "Kali Linux": {
           "Name": "Kali Linux",
@@ -80,6 +88,7 @@
             "Title": "Install/Download",
             "Action": ""
           },
+          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
         }
       }
     }
