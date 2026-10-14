@@ -56,7 +56,7 @@
       "items": {
         "Windows 7 x64": {
           "Name": "Windows 7 Francais x64",
-          "Desc": "De/By Microsoft Corporation () requirement : 2 Go RAM, DirectX 9 with WDDM 1.0",
+          "Desc": "De/By Microsoft Corporation (Windows 7 operating system) requirement : 2 Go RAM, DirectX 9 with WDDM 1.0",
           "Button": {
             "Title": "Install/Download",
             "Action": "https://drive.google.com/uc?export=download&id=1SKHDUowo38zrkI07iHPfStUEf0iLGm6t"
