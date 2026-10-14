@@ -61,7 +61,7 @@
             "Title": "Install/Download",
             "Action": "https://drive.google.com/uc?export=download&id=1SKHDUowo38zrkI07iHPfStUEf0iLGm6t"
           },
-          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
+          "Video": "https://youtu.be/k6bLS-aSTgo?si=5fU25-mPWssKgp8_"
         },
         "Windows 8.1": {
           "Name": "Windows 8.1 anglish x64",
@@ -70,16 +70,16 @@
             "Title": "Install/Download",
             "Action": "https://drive.usercontent.google.com/download?id=1XAPQcBVTkk1nh8y-0drVk3oCGxiInp-y&export=download&authuser=0"
           },
-          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
+          "Video": "https://youtu.be/HYqYjeivM3k?si=zDNVpClhpBuguiBx"
         },
-        "Wnnidows 10-11": {
+        "Windows 10-11": {
           "Name": "Windows 10 build 21390.2025 (x64)",
           "Desc": "De/By Microsoft Corporation",
           "Button": {
             "Title": "Install/Download",
             "Action": ""
           },
-          "Video": "https://www.youtube.com/watch?v=VIDEO_ID"
+          "Video": "https://youtu.be/Uh9643c2P6k?si=af0dxWyXWtdeTWIx"
         },
         "Kali Linux": {
           "Name": "Kali Linux",
