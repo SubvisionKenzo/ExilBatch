@@ -56,7 +56,7 @@
       "items": {
         "Windows 7 x64": {
           "Name": "Windows 7 Francais x64",
-          "Desc": "De/By Microsoft Corporation",
+          "Desc": "De/By Microsoft Corporation () requirement : 2 Go RAM, DirectX 9 with WDDM 1.0",
           "Button": {
             "Title": "Install/Download",
             "Action": "https://drive.google.com/uc?export=download&id=1SKHDUowo38zrkI07iHPfStUEf0iLGm6t"
@@ -65,7 +65,7 @@
         },
         "Windows 8.1": {
           "Name": "Windows 8.1 anglish x64",
-          "Desc": "De/By Microsoft Corporation",
+          "Desc": "De/By Microsoft Corporation (Windows 8.1 operating system for all types of machines) requirement : 2 Go RAM, DirectX 9, disk : 20 Go minim..",
           "Button": {
             "Title": "Install/Download",
             "Action": "https://drive.usercontent.google.com/download?id=1XAPQcBVTkk1nh8y-0drVk3oCGxiInp-y&export=download&authuser=0"
@@ -74,7 +74,7 @@
         },
         "Windows 10-11": {
           "Name": "Windows 10 build 21390.2025 (x64)",
-          "Desc": "De/By Microsoft Corporation",
+          "Desc": "De/By Microsoft Corporation (First version of Windows 11 DEV build experimentation system)",
           "Button": {
             "Title": "Install/Download",
             "Action": ""
